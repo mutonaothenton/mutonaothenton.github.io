@@ -301,6 +301,26 @@ video {
   scroll-margin-top: 7rem;
 }
 
+/* Footer Styles */
+
+.footer-logo {
+  white-space: nowrap;
+  width: 100%;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.footer-copyright {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.footer-social a {
+  color: black;
+  padding: 0 1rem;
+}
+
 /* Add Media Queries for Large Screens */
 
 @media (min-width: 600px) {
@@ -344,6 +364,9 @@ video {
   }
   .section-stop {
     scroll-margin-top: 9rem;
+  }
+  .footer-nav {
+    padding-top: 2rem;
   }
 }
 
