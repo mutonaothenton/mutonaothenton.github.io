@@ -233,7 +233,7 @@ video {
 
 /* Portfolio Gallery Styles */
 .portfolio-container {
-  margin: 1rem auto 0 auto;
+  margin: 6rem auto 0 auto;
 }
 
 .portfolio-container h1 {
@@ -269,7 +269,7 @@ video {
 .about-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 1rem auto 0 auto;
+  margin: 6rem auto 0 auto;
 }
 
 .about-text {
@@ -335,6 +335,11 @@ video {
   .hero-text-box {
     padding: 2rem;
   }
+
+  .portfolio-container {
+    margin-top: 8rem;
+  }
+
   .portfolio-container h1,
   .about-text h1 {
     font-size: 3rem;
@@ -342,6 +347,7 @@ video {
   }
 
   .about-container {
+    margin-top: 8rem;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
@@ -377,10 +383,12 @@ video {
   .hero-box {
     margin-top: -8rem;
   }
+
   .portfolio-container,
   .about-container {
     max-width: 1400px;
   }
+
   .portfolio-container h1,
   .about-text h1 {
     font-size: 4rem;
