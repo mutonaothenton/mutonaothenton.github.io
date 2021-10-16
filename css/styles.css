@@ -336,10 +336,6 @@ video {
     padding: 2rem;
   }
 
-  .portfolio-container {
-    margin-top: 8rem;
-  }
-
   .portfolio-container h1,
   .about-text h1 {
     font-size: 3rem;
@@ -347,7 +343,6 @@ video {
   }
 
   .about-container {
-    margin-top: 8rem;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
@@ -367,7 +362,7 @@ video {
     padding: 0 0.2rem;
   }
   .section-stop {
-    scroll-margin-top: 9rem;
+    scroll-snap-margin-top: 9rem;
   }
   .footer-nav {
     padding-top: 2rem;
