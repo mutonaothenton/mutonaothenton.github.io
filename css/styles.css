@@ -362,7 +362,7 @@ video {
     padding: 0 0.2rem;
   }
   .section-stop {
-    scroll-snap-margin-top: 9rem;
+    scroll-margin-top: 9rem;
   }
   .footer-nav {
     padding-top: 2rem;
